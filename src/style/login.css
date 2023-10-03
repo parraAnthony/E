@@ -1,0 +1,50 @@
+.form-section{
+    height: 100vh;
+    padding: 3rem 0;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    height: 50%;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 2rem 1.5rem;
+    max-width: 500px;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+}
+.buttonLogin{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.buttonLogin button{
+    border-style: none;
+    color: white;
+    background-color: #325d88;
+    width: 50%;
+}
+form h1 {
+    text-align: center;
+}
+.registerSectionInLogin{
+    display: flex;
+    gap: 5px;
+}
+.registerbutton-Login{
+    background-color: #ffffff00;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
